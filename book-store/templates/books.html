@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Books Page</title>
+</head>
+<body>
+    <h1>Books Page</h1>
+    <ul>
+        <li>
+            <img src="{{ url_for('static', filename='images/697961998_max.jpg') }}" alt="Book 1">
+            <a href="{{ url_for('book_details', book_id=1) }}">Book 1</a>
+        </li>
+
+        <li>
+            <img src="{{ url_for('static', filename='images/51EnOwoxxdL.jpg') }}" alt="Book 2">
+            <a href="{{ url_for('book_details', book_id=2) }}">Book 2</a>
+        </li>
+
+        <li>
+            <img src="{{ url_for('static', filename='images/Singer-FYTT-marketing-cover.AVIF ') }}" alt="Book 2"height="500",width="500">
+            <a href="{{ url_for('book_details', book_id=3) }}">Book 3</a> 
+    
+    </ul>
+</body>
+</html>
